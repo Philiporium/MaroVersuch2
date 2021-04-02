@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="/static/css/style.css" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet2">
+    <style>
+        .container {
+            position: relative;
+            width: 50%;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 10%;
+            transition: 1s ease;
+            background-color: grey;
+        }
+
+        .container:hover .overlay {
+            opacity: 1;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    </style>
+</head>
+<br>
+<div class="fixed-header">
+    <div class="container">
+        <nav>
+            <a href="/">Home</a>
+            <a href="About.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="services.html" style="text-decoration:underline;">Services</a>
+            <a href="contactUs.html">Contact Us</a>
+        </nav>
+    </div>
+</div>
+<div class="row">
+    <div class="container" class="column" style="padding: 10px">
+        <img src="/static/img/Haus2.jpeg"  alt="Avatar" class="image" style="max-height: 480px">
+        <div class="overlay">
+            <div class="text">Unser Standort: Holze</div>
+        </div>
+        <a>Unser Standort</a>
+    </div>
+    <div class="container" class="column" style="padding: 10px">
+        <img src="/static/img/Haus.jpeg" alt="Avatar" class="image" style="max-height: 480px">
+         <div class="overlay">
+            <div class="text">Unser Standort: Holze</div>
+        </div>
+        <a>Unser Standort</a>
+    </div>
+</div>
+<div class="row">
+    <div class="container" class="column" style="padding: 10px">
+        <img src="/static/img/Haus2.jpeg"  alt="Avatar" class="image" style="max-height: 480px">
+        <div class="overlay">
+            <div class="text">Unser Standort: Holze</div>
+        </div>
+        <a>Unser Standort</a>
+    </div>
+    <div class="container" class="column" style="padding: 10px">
+        <img src="/static/img/Haus.jpeg" alt="Avatar" class="image" style="max-height: 480px">
+        <div class="overlay">
+            <div class="text">Unser Standort: Holze</div>
+        </div>
+        <a>Unser Standort</a>
+    </div>
+</div>
+</br></br></br></br>
+
+<div class="fixed-footer">
+        <a> Eva Schmitt Rodrigues </a>
+        <a class="verlinked" href="https://www.amazon.de/s?k=rodrigues&i=popular&hvadid=80470539712507&hvbmt=be&hvdev=c&hvqmt=e&tag=hyddemsn-21&ref=pd_sl_3tv0mdwuwq_e">Geschäftswebsite</a>
+</div>
+</body>
+</html>
